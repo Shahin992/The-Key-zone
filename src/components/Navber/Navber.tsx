@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
-import logo from "../../assets/Mechanical Keyboard Shop.png";
+import logo from "../../assets/the-key-zone-logo.jpg";
 import "./navber.css";
 import { useAppSelector } from "@/Redux/hooks";
 import { selectTotalQuantity } from "@/Redux/features/products/cardSlice";
@@ -55,10 +55,14 @@ const Navber = () => {
               {nav}
             </ul>
           </div>
-          {/* <a className="btn btn-ghost text-xl">{logo}</a> */}
           <div>
-            <Link to="/">
-              <img className="h-14" src={logo} alt="" />
+            <Link to="/" className="flex justify-center gap-4">
+              <div className="w-14 h-14 rounded-full overflow-hidden flex items-center justify-center bg-gray-200">
+                <img className="h-full w-full object-cover" src={logo} alt="" />
+              </div>
+              <h2 className="text-2xl font-bold text-center text-gray-800 mt-4">
+                The Key Zone
+              </h2>
             </Link>
           </div>
         </div>
