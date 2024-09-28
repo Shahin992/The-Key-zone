@@ -1,6 +1,6 @@
 # E-Commerce Platform
 
-Live Demo: https://mechanical-keyboard-shop-mu.vercel.app/
+Live Demo: https://the-key-zone.vercel.app
 
 ## Table of Contents
 
